@@ -8,7 +8,7 @@ name: "llp"
 author: "Cryofluid"
 
 #the fully qualified main class of the mod
-main: "llp-LargeLaunchPad"
+main: "largelaunchpad.LargeLaunchPad"
 
 #the mod description as seen in the mod dialog
 description: "bring back large launch pad to v135"
