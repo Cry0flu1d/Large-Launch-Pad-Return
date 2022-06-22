@@ -1,7 +1,8 @@
-package llp;
+package largelaunchpad;
 
 import arc.util.*;
-import llp.content.block;
+import largelaunchpad.content.block;
+import largelaunchpad.content.techTree;
 import mindustry.mod.*;
 
 
@@ -16,6 +17,7 @@ public class LargeLaunchPad extends Mod{
     public void loadContent(){
         Log.info("Loading something from v5.");
         block.load();
+        techTree.load();
     }
 
 }
